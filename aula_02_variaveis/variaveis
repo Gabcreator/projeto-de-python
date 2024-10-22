@@ -1,0 +1,15 @@
+import os
+os.system('cls')
+print('-' *70)
+print('estudo de variaveis')
+print('-' *70)
+nome = 'john doe'
+nascimento = 1970
+altura = 1.80
+peso = 75.5
+doador = True
+complexo = 3j
+print('\033[0m \033[31mtipos declarados:\033[0m')
+print('\033[0m a variavel \033[32m nome \033[0m é do tipo: ', type(nome))
+print('\033[0m a variavel \033[32m nascimento \033[0m é do tipo: ', type(nascimento))
+print('\033[0m]')
