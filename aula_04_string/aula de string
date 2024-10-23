@@ -1,0 +1,21 @@
+import os
+import datetime
+nome = input('Entre com um nome: ')
+peso =input('Entre com o peso: ')
+altura =input('Entre com a altura: ')
+nascimento = int(input('Ano de nascimento: '))
+cep = int(input('Entre com o CEP: '))
+bairro = str(input('Entre com o bairro: '))
+rua = str(input('Nome da rua: '))
+numero = int(input('entre com o seu número'))
+ano_atual = datetime.datetime.now().year
+idade = int(ano_atual) - nascimento
+print('nome: ', nome)
+print('ano de nascimento: ', nascimento)
+print('peso: ', peso)
+print('altura: ', altura)
+print(f'{nome}, você tem {idade} anos!')
+print(f'CEP: {cep}')
+print(f'Bairro: {bairro}')
+print(f'rua: {rua}')
+print(f'Número: {numero}')
