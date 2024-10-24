@@ -1,0 +1,35 @@
+import os
+
+os.system('cls')
+
+print('--- SOMA')
+print('-'*70)
+parcela_1 = float(input('entre com a 1ª parcela: '))
+parcela_2 = float(input('entre com a 2ª parcela: '))
+
+print()
+print('--- SUBSTRAÇÃO')
+print('-'*70)
+minuendo = float(input('entre com o minuendo: '))
+subtraendo = float(input('entre com o subtraendo: '))
+print()
+print('--- PRODUTO')
+print('-'*70)
+multiplicando = float(input('entre com o multiplicando: '))
+multiplicador = float(input('entre com o multiplicador: '))
+print()
+print('--- DIVISÃO')
+print('-'*70)
+dividendo = float(input('entre com o dividendo '))
+divisor = float(input('entre com o divisor '))
+soma = parcela_1 + parcela_2
+diferença = minuendo - subtraendo
+produto = multiplicando * multiplicador
+quociente = dividendo / divisor
+print('='*70)
+print('RESULTADOS')
+print('-'*70)
+print(f'a soma de {parcela_1} + {parcela_2} é: {soma}')
+print(f'a subtração de {minuendo} - {subtraendo} é: {diferença}')
+print(f'a multiplicação de {multiplicando} * {multiplicador} é: {produto}')
+print(f'a divisão de {dividendo} / {divisor} é: {quociente}')

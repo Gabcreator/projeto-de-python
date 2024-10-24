@@ -1,0 +1,12 @@
+import os
+
+os.system("cls")
+
+fruta = input('qual sua fruta favorita: ')
+jogo = input('qual seu jogo favorito: ')
+desenho = input('qual seu desenho, filme ou anime favorito: ')
+cor = input('qual sua cor favorita: ')
+print('fruta ', fruta)
+print('jogo ', jogo)
+print('desenho ', desenho)
+print('cor ', cor)
