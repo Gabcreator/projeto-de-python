@@ -1,0 +1,16 @@
+import os
+os.system('cls')
+print("-" *70)
+print("Aula de entrada de dados")
+print("-" *70)
+
+nome = (input("qual seu nome? "))
+nascimento = (input("informe seu aniversario :"))
+peso = (input("infome seu peso :"))
+altura = (input("informe sua altura :"))
+print("-" *70)
+print (f"---         Seja bem vindo:  {nome}")
+print ("---         você nasceu em: ", nascimento,)
+print ("---         seu peso é: ", peso, "kg")
+print ("---         sua altura é: ", altura, "m")
+print("-" *70)
