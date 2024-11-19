@@ -20,7 +20,7 @@ for a  in range (1, 10):
        print(f'{resultado}')
     if opcao == -1:
         print('você selecionou multiplicação (9999 para sair)')
-        valorm = opcao * 1
+        valor = opcao * 1
         valor3 = int(input('coloque um número para multiplicar: '))
         valor4 = int(input('coloque o segundo número para multiplicar: '))
         resultado_m = valor3 * valor4
