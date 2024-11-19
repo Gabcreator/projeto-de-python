@@ -4,5 +4,9 @@ import os
 
 os.system('cls')
 
-conta = int(input('coloque um número: '))
+numero = int(input('coloque um número: '))
+valor = 0
 
+for a in range(1, 11):
+    valor = numero * a
+    print(f'{numero} x {a} = {valor}')
