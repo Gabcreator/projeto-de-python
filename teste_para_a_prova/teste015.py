@@ -12,6 +12,9 @@ valorm = 0
 
 for a  in range (1, 10):
     if opcao == +1:
+       if opcao == 9999:
+           print('você saiu')
+           break
        print('você selecionou soma (9999 para sair)')
        valor = opcao + 1
        valor1 = int(input('coloque o primeiro número: '))
@@ -19,6 +22,9 @@ for a  in range (1, 10):
        resultado = valor1 + valor2
        print(f'{resultado}')
     if opcao == -1:
+        if opcao == 9999:
+            print('você saiu')
+            break
         print('você selecionou multiplicação (9999 para sair)')
         valor = opcao * 1
         valor3 = int(input('coloque um número para multiplicar: '))
@@ -27,4 +33,4 @@ for a  in range (1, 10):
         print(f'{resultado_m}')
     if opcao == 9999:
         print('você saiu')
-        exit
+        break
