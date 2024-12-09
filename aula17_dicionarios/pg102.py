@@ -30,4 +30,23 @@ while True:
             print("O dicionário está vazio. adicione itens primeiro")
 
     elif opcao == '3':
-        
+        if meu_dicionario:
+            chave, valor = meu_dicionario.popitem()
+            print(f'O ultímo ítem removido foi: {chave},{valor}')
+        else:
+            print('O dicionário está vazio. Adicione itens primeiro')
+
+    elif opcao == '4':
+        if meu_dicionario:
+            print("Dicionário atual:", meu_dicionario)
+
+        else:
+            print("O dicionário está vazio.")
+
+
+    elif opcao == '5':
+        print("Saindo do programa")
+        break
+
+    else:
+        print('Opção inválida. tente novamente.')
