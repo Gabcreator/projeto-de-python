@@ -27,7 +27,8 @@ while True:
                 valor = input("Digite os valores: ")
                 print(f"Os seus valores {valor} foram adicionadas no seu dicionário")
             elif opcao == '4':
-                print(f"Seu dicionario final das chaves é {chaves} e dos valores são {valor}.")
+                dicionario = len(opcao)
+                print(f"seu dicionário final com as chaves e os valores foi {dicionario}.")
 
             elif opcao == '5':
                 print("Saindo do programa")
